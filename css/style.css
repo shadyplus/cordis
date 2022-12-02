@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Alexandria', sans-serif;
+    /* line-height: 1.5; */
+
+}
+/* navbar start */
+.nav-link{
+border-radius: 10px;
+background-color: rgb(62,191,180);
+color: white;
+font-weight: 400;
+
+}
+.nav-link:hover{
+    color: white;
+}
+
+/* navbar end */
+
+/* landing start */
+.landing{
+    min-height:20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background: url(./img/land.jpeg) no-repeat; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-weight: 400;
+    font-family: 'Alexandria', sans-serif;
+}
+.land{
+    background-color: rgba(254, 146, 146, 0.13);
+    border-radius: 20px;
+}
+#land2{
+    align-items: center;
+    font-size: 50px;
+}
+.container{
+    direction: rtl;
+    line-height: 2;
+
+}
+h5{
+    line-height: 1.5;
+}
+#docimg{
+    transform: scale(1.2);
+}
+
+
+    @media only screen and (max-width: 1000px) {
+        #docimg{
+          /* height: 100%; */
+          width: 100%;
+        }
+      }
+    @media only screen and (max-width: 1000px) {
+        #docimg{
+            transform: scale(1);
+        }
+      }
+    
+      
+
+/* landing end */
+/* questions start */
+.questions{
+    background-color:rgba(254, 146, 146, 0.13) ;
+    border-radius: 20px;
+}
+/* questions end */
+#pic{
+    background-color: rgba(254, 146, 146, 0.13) ;
+
+}
+
+@media only screen and (max-width: 993px) {
+    .nav-item{
+        margin: 0px 0px 7px 0px;
+
+    }
+  }
+
+
+/* order start */
+.order{
+    background-color:rgba(254, 146, 146, 0.13) ;
+    border-radius: 70px;
+
+}
+#formimg{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#formimg2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* order end */
+/* howto start */
+.howto{
+    background-color:rgba(254, 146, 146, 0.13) ;
+    border-radius: 70px;
+
+}
+/* howto end */
+.checked {
+    color: orange;
+  }
+
+  /* feedback start */
+  #feedimg{
+border-radius:22px;
+/* max-width: 70%; */
+  }
+  .xoll{
+    align-items: center;
+    display: flex;
+  }
+  /* feedback end */
+ 
